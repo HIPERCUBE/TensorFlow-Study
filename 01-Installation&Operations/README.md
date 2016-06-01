@@ -27,7 +27,7 @@ $ sudo pip install --upgrade https://storage.googleapis.com/tensorflow/mac/tenso
 
 
 ## Hello, TensorFlow
-[Source](/HelloTensorFlow.py)
+[Source](./HelloTensorFlow.py)
 ``` python
 import tensorflow as tf
 
@@ -54,7 +54,7 @@ Hello, TensorFlow
 
 
 ## Everything is operation
-[Source](/EverythingIsOperation.py)
+[Source](./EverythingIsOperation.py)
 ``` python
 import tensorflow as tf
 
@@ -82,7 +82,7 @@ Tensor("add:0", shape=(), dtype=int32)
 
 
 ## Basic operations
-[Source](/BasicOperations)
+[Source](./BasicOperations)
 ``` python
 import tensorflow as tf
 
@@ -106,7 +106,7 @@ Multiplication with constants: 6
 
 
 # Placeholder
-[Source](/Placeholder.py)
+[Source](./Placeholder.py)
 ``` python
 import tensorflow as tf
 
