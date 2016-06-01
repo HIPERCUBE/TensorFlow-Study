@@ -7,6 +7,9 @@ import tensorflow as tf
 # The Value returned by constructor represents the output of the Constant op.
 hello = tf.constant('Hello, TensorFlow')
 
+# Print Tensor info
+print hello
+
 # Start tf session
 sess = tf.Session()
 
