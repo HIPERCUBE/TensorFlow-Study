@@ -105,6 +105,35 @@ Multiplication with constants: 6
 ```
 
 
+# Placeholder
+[Source](/Placeholder.py)
+``` python
+import tensorflow as tf
+
+# Basic Operations with variable as graph input
+# The value returned by the constructor represents the output of the Variable op.
+# (define as input when running session
+# tf Graph input
+a = tf.placeholder(tf.int16)
+b = tf.placeholder(tf.int16)
+
+# Define some operations
+add = tf.add(a, b)
+mul = tf.mul(a, b)
+
+# Launch the default graph.
+with tf.Session() as sess:
+    # Run every operation with variable input
+    print "Addition with variables: %i" % sess.run(add, feed_dict={a: 2, b: 3})
+    print "Multiplication with variables: %i" % sess.run(mul, feed_dict={a: 2, b: 3})
+```
+### Result
+```
+Addition with variables: 5
+Multiplication with variables: 6
+```
+
+
 ## Reference
 - https://www.tensorflow.org/versions/r0.8/get_started/os_setup.html
 - https://www.youtube.com/watch?v=cbPjsOivFOs
