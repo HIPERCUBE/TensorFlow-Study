@@ -82,7 +82,7 @@ Tensor("add:0", shape=(), dtype=int32)
 
 
 ## Basic operations
-[Source](./BasicOperations)
+[Source](./BasicOperations.py)
 ``` python
 import tensorflow as tf
 
