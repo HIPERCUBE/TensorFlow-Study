@@ -1,5 +1,4 @@
 # Installation
-TensorFlow Download and Setup : https://www.tensorflow.org/versions/r0.8/get_started/os_setup.html
 
 ## install pip
 ``` shell
@@ -23,3 +22,7 @@ $ sudo pip install --upgrade https://storage.googleapis.com/tensorflow/linux/gpu
 $ sudo easy_install --upgrade six
 $ sudo pip install --upgrade https://storage.googleapis.com/tensorflow/mac/tensorflow-0.8.0-py2-none-any.whl
 ```
+
+## Reference
+- https://www.tensorflow.org/versions/r0.8/get_started/os_setup.html
+- https://www.youtube.com/watch?v=cbPjsOivFOs
