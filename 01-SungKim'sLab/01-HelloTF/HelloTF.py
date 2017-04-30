@@ -10,7 +10,7 @@ import tensorflow as tf
 
 hello = tf.constant('Hello, TensorFlow!')
 
-print hello
+print(hello)
 
 # Start tf session
 sess = tf.Session()
