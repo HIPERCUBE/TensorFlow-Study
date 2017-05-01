@@ -13,7 +13,7 @@ W = tf.placeholder(tf.float32)
 hypothesis = tf.multiply(X, W)
 
 # Cost function
-cost = tf.reduce_sum(tf.pow(hypothesis - Y, 2)) / m
+cost = tf.reduce_sum(tf.square(hypothesis - Y)) / m
 
 # Initializing the variables
 init = tf.initialize_all_variables()
